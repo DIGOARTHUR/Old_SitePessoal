@@ -1,0 +1,18 @@
+#center-body{
+
+    width: 700px;
+    border:red solid 2px;
+}
+
+.header{
+    background: rosybrown;
+    height: 100px;
+}
+
+#imgAvatar{
+   width: 200px;
+   height: 200px; 
+   border-radius: 50%;
+  float: right;
+  margin-right: 30px;
+}
