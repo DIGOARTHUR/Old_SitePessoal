@@ -1,136 +1,271 @@
 
-@font-face {
-    font-family: Chalkduster;
-    src:local( Chalkduster), url(/fonte/bd9805cba4fdbd10e6f9d097dab9225f.ttf ) /*Para os demais navegadores*/;
-    
-}
-
 body {
     height:100%; 
-    width:99.6%;
+    width:100%;
  }
-/* HEADER **************************************** */
-.header{
-    background:  rgb(86, 61, 124) ;
-    height: 70px;
-    width: 1530px;
-    
+ 
+/*******************************************************/
+/*************** Header ******************************* /
+/******************************************************/
+
+/***** LINHAS DE MARCAÇÃO ******/
+.col-sm{
+    border: violet solid 5px;
 }
-.header h1{
+
+/**********************************/
+
+/* DIV PAI HEADER */
+#divHeader{
+    background:  rgb(86, 61, 124) ;
+    height: 75px;
+    }
+
+
+#divHeader h1{
+   
     margin-left: 400px;
     font-size: 50px;
     color: white;
-    
-    
-   
 }
-/* ICONS */
-#divGroupIcons{
+
+/* DIV TITULO  */
+#divTituloHeader{
     
-    width: 700px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#divTituloHeader #logoPage{
+width: 65px;
+height: 65px;
+position: absolute;
+margin-left: 340px;
+
+}
+
+
+/* CONFIGURAÇÃO BARRA PISCANDO  */
+.tituloHeader:after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+   }
+
+   @keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+
+/* ICONS */
+#divGroupIconsHeader{
+    border: violet solid 5px;
+    height: 100%;
     margin-bottom: 50px;
-    padding: 0px 0px 0px 0px ;
     margin-top: 25px;
     }
-
-#iconFacebook{
-   
-}
-
-
 
 .iconHeader{
     height:32px;
     width: 32px;
     margin-left: 10px  ;
-  
-    
-}
-#divRightBody{
-    width: 250px;
-}
+  }
 
-.col-2{
-    
+
+  .col-sm-2{
     border: violet solid 5px;
+
+  }
+
+  .col-sm-8{
+    border: violet solid 5px;
+
+  }
+
+
+
+ /**********************************************/
+/*************** LEFT BODY */
+/************************************/
+
+/*DIV PAI */
+#divLeftBody {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+
 }
 
-
-/* MAIN **************************************** */
-
-
-/* CENTER BODY  */
-
-#center-body{
-   margin-top: 100px;
-    width: 890px;
+/*LINHAS DE MARCAÇÃO*/
+#divAvatar{
     border:red solid 2px;
-    
-}
-
-.iconCards{
-    width: 50px;
-    height: 50px;
 
 }
 
-
-/* CARD 1  */
-
-
-
-/* CARD 2  */
-
-/* CARD 2.1  */
-
-#imgQuemSou{
-    height:430px ;
-    width: 225px;
-    margin-left: 35px;
-}
-#h1QuemSouEu{
-    font-size: 30px;
-}
-
-
-
-/* CARD 3  */
-
-
-
-
-
-
-/* RIGHT BODY */
-#imgAvatar{
+#divAvatar #imgAvatar{
     width: 200px;
     height: 200px; 
     border-radius: 50%;
-   margin-right: 30px;
-   margin-top: 30px;
+ 
+ }
+
+
+ /*DIV CONTATOS */
+#divContato{
+    margin-top: 50px;
+   font-size: 12px;
+   
+}
+
+#divCopyryght{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#divCopyryght #logo_Page_Footer{
+  
+    width: 70px;
+    height: 70px;
+}
+  
+
+
+#divCopyryght #autoria{
+    font-size: 12px;
+    
+}
+
+
+
+
+ /**********************************************/
+/*************** CENTER BODY */
+/************************************/
+
+/*LINHAS DE MARCAÇÃO*/
+.col-sm-8{
+    border:red solid 2px;
+   
+}
+
+.col-10{
+    border: rgb(38, 202, 139) solid 5px; 
+}
+
+
+/* DIV PAI */
+#divCenterBody{
+
+    height: 640px;
+    overflow:auto; 
+    
+    margin-top: 50px;
+    border:red solid 2px;
+ }
+
+
+/*HABILITAR O CURSOR NOS CARDS*/
+.card-header{
+    cursor: pointer;
+}
+
+/*HABILITA EFEITO SUAVE A ABERTURA DOS CARDS*/
+ #collapse1,#collapse2,#collapse3,#collapse31,#collapse32,#collapse311,#collapse312,#collapse313,#collapse314,#collapse315,#collapse316{
+    -webkit-transition: height 500ms ease;
+ }
+
+ /*ICONE CARDS */
+.iconCards{
+     width: 50px;
+     height: 50px;
+ 
  }
  
 
- .divRadiusHardSkills{
-   
+ /* CARD 1  */
+ 
+ 
+ 
+ /* CARD 2  */
+ 
+ /* CARD 2.1  */
+ 
+ #imgQuemSou{
+     height:100% ;
+     width: 100%;
+     
+ }
+ #h1QuemSouEu{
+     font-size: 30px;
+ }
+ 
+ 
+ 
+ /* CARD 3  */
+
+ /*LINHA DE MARCAÇÃO*/
+ 
+  /* CARD 3.1  */
+ #divGraduacao{
+
+    border: black solid 2px;
+ }
+
+ #icon_Graduacao{
+     width: 170px;
+     height: 107px;
+ }
+ #tituloGraducaoCiencia{
+     font-size: 34px;
+     margin-top: 3px;
+ }
+
+ #tituloGraducaoMecatronica{
+    font-size: 34px;
+    margin-top: 35px;
+ }
+
+/* CARD 3.2  */
+ #icon_PosGraduacao{
+    width: 150px;
+    height: 150px;
+ }
+
+
+
+ 
+ /**********************************************/
+/*************** RIGHT BODY */
+/************************************/
+
+/*LINHA DE MARCAÇÃO*/
+.col-sm-2{
     border:red solid 2px;
-    border-radius: 25px 25px 25px 25px;
-    padding-left: 25px;
- }
-
- .divHardSkills{
-     width: 200px;
-     color: rgb(151, 161, 237);
- }
+}
 
 
- #tituloHardSkill{
-    text-align: center;
+#divRightBody{
+    border:red solid 2px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    margin-top: 50px;
+}
+
+#tituloHardSkill{
+    
     font-size: 25px;
     color: rgb(151, 161, 237);
     margin-top: 10px;
   
 }
+
+/*EFEITO ENGRENAGENS*/
 @keyframes gira {
     to {
         transform: rotate(360deg);
@@ -156,8 +291,24 @@ body {
     animation: giraAntihorario 15s linear infinite;
 }
 
+
+/*SUBTITULOS E ICONS*/
+#subTituloHardSkill{
+    background-color: rgb(151, 161, 237); ;
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
 .iconHardSkill{
     width: 55px;
     height: 55px;
+    
 }
- 
+
+
+
+
+
+
+
