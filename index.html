@@ -36,7 +36,7 @@
     <!-- CSS LOCAL-->
     <link rel="stylesheet" href="style.css">
 
-   
+
 
 
 
@@ -45,39 +45,55 @@
 <body>
 
 
- 
+
     <!---------------------------------------------------->
     <!--HEADER-------------------------------------------------->
     <!---------------------------------------------------->
 
 
 
-    <div id="divHeader" class="container-fluid">
+    <div id="divHeader" class="container-fluid ">
 
         <div class="row">
 
             <div id="divTituloHeader" class="col-sm">
-                <img id="logoPage" src="img/logo_Page.png">
-                <h1 class="tituloHeader">@DigoArthur</h1>
+                <div class="row">
+
+                    <div class="col-3-sm">
+                        <img id="logoPage" class="" src="img/logo_Page.png">
+                    </div>
+
+                    <div class="col-9-sm">
+                        <h1 class="tituloHeader">@DigoArthur</h1>
+                    </div>
+
+
+
+                </div>
+
+
 
             </div>
             <div id="divGroupIconsHeader" class="col-sm">
 
+                <div class="container">
+                    <a href="https://github.com/DIGOARTHUR"> <img id="iconGithub" class="iconHeader"
+                            onmouseover="setNewImage(1)" onmouseout="setOldImage(1)" src="img/icon_Github.png"></a>
 
-                <a href="https://github.com/DIGOARTHUR"> <img id="iconGithub" class="iconHeader"
-                        onmouseover="setNewImage(1)" onmouseout="setOldImage(1)" src="img/icon_Github.png"></a>
+                    <a href="https://www.linkedin.com/in/digoarthur/"> <img id="iconLinkedin" class="iconHeader"
+                            onmouseover="setNewImage(2)" onmouseout="setOldImage(2)" src="img/icon_Linkedin.png"></a>
 
-                <a href="https://www.linkedin.com/in/digoarthur/"> <img id="iconLinkedin" class="iconHeader"
-                        onmouseover="setNewImage(2)" onmouseout="setOldImage(2)" src="img/icon_Linkedin.png"></a>
+                    <a href="https://www.facebook.com/digoarthur/"><img id="iconFacebook" class="iconHeader"
+                            onmouseover="setNewImage(3)" onmouseout="setOldImage(3)" src="img/icon_Facebook.png"></a>
 
-                <a href="https://www.facebook.com/digoarthur/"><img id="iconFacebook" class="iconHeader"
-                        onmouseover="setNewImage(3)" onmouseout="setOldImage(3)" src="img/icon_Facebook.png"></a>
+                    <a href="https://www.instagram.com/digoarthur/?hl=pt-br"><img id="iconInstagram" class="iconHeader"
+                            onmouseover="setNewImage(4)" onmouseout="setOldImage(4)" src="img/icon_Instagram.png"></a>
 
-                <a href="https://www.instagram.com/digoarthur/?hl=pt-br"><img id="iconInstagram" class="iconHeader"
-                        onmouseover="setNewImage(4)" onmouseout="setOldImage(4)" src="img/icon_Instagram.png"></a>
+                    <a href="https://twitter.com/digoarthur"><img id="iconTwitter" class="iconHeader"
+                            onmouseover="setNewImage(5)" onmouseout="setOldImage(5)" src="img/icon_Twitter.png"></a>
 
-                <a href="https://twitter.com/digoarthur"><img id="iconTwitter" class="iconHeader"
-                        onmouseover="setNewImage(5)" onmouseout="setOldImage(5)" src="img/icon_Twitter.png"></a>
+                </div>
+
 
 
             </div>
@@ -97,56 +113,56 @@
             <div class="col-sm-2">
                 <div id="divLeftBody" class="container">
 
-                    
 
-                        <div id="divAvatar">
-    
-                            <img id="imgAvatar" src="img/img_Avatar.jpg">
-    
-                        </div>
-    
-    
-    
-    
-                      
-                        <!-- ICONES HARD SKILLS-->
-    
-    
-    
-                      <!-- ESCREVER DESCRIÇÃO ABAIXO DA FOTO-->
-                     
-    
-                        <!---------------------------------------------------->
-                        <!--LEFT BODY FOOTER --------------------------------------------------->
-                        <!---------------------------------------------------->
-    
-    
-    
-                        <div id="divContato" class="container">
-    
-    
-                            <hr>
-    
-    
-                            Whatsapp: (61) 98285-3050
-                            <br>
-                            Telefone: (31) 99389-2499
-                            <br>
-                            E-mail : digo.arthur@hotmail.com
-                        </div>
-    
-    
-    
-                        <div id="divCopyryght" class="container">
-    
-                            <img id="logo_Page_Footer" src="img/logo_Page_Footer.png">Versão 1.0
-                            <br>
-                            <p id="autoria">Copyright © 2020 | Minha autoria</p>
-    
-                        </div>
-    
-    
-                    
+
+                    <div id="divAvatar">
+
+                        <img id="imgAvatar" src="img/img_Avatar.jpg">
+
+                    </div>
+
+
+
+
+
+                    <!-- ICONES HARD SKILLS-->
+
+
+
+                    <!-- ESCREVER DESCRIÇÃO ABAIXO DA FOTO-->
+
+
+                    <!---------------------------------------------------->
+                    <!--LEFT BODY FOOTER --------------------------------------------------->
+                    <!---------------------------------------------------->
+
+
+
+                    <div id="divContato" class="container">
+
+
+                        <hr>
+
+
+                        Whatsapp: (61) 98285-3050
+                        <br>
+                        Telefone: (31) 99389-2499
+                        <br>
+                        E-mail : digo.arthur@hotmail.com
+                    </div>
+
+
+
+                    <div id="divCopyryght" class="container">
+
+                        <img id="logo_Page_Footer" src="img/logo_Page_Footer.png">Versão 1.0
+                        <br>
+                        <p id="autoria">Copyright © 2020 | Minha autoria</p>
+
+                    </div>
+
+
+
 
 
                 </div>
@@ -170,8 +186,7 @@
                                 </h5>
                             </div>
 
-                            <div id="collapse1" class="collapse show" aria-labelledby="heading1"
-                                data-parent="#accordion">
+                            <div id="collapse1" class="collapse " aria-labelledby="heading1" data-parent="#accordion">
                                 <div class="card-body">
 
                                     <h3>Objetivo</h3>
@@ -205,8 +220,8 @@
                             </div>
                         </div>
                         <!-- DIV 2  QUEM SOU EU-->
-                        <div class="card">
-                            <div class="card-header" onclick="digitaTexto()" id="heading2" data-toggle="collapse" data-target="#collapse2">
+                        <div class="card-ms">
+                            <div class="card-header" id="heading2" data-toggle="collapse" data-target="#collapse2">
                                 <h5 class="mb-0">
 
                                     <button class="btn btn collapsed" data-toggle="collapse" data-target="#collapse2"
@@ -216,20 +231,30 @@
                                     <img id="iconQuemSouEu" class="iconCards" src="img/icon_QuemSouEu.png ">
                                 </h5>
                             </div>
-                            <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion">
+                            <div id="collapse2" class="collapse show" aria-labelledby="heading2"
+                                data-parent="#accordion">
                                 <div class="card-body">
                                     <!-- DIV 2.1 -->
 
                                     <div class="form-row">
-                                        <div class="col-8">
+                                        <div class="col d-block ">
 
-                                            <h1 id="h1QuemSouEu">Diego Arthur Bispo Justino de Oliveira</h1>
+                                            <h1 class="d-none d-sm-block d-md-none d-block d-sm-none" id="h1QuemSouEu">
+                                                Diego Arthur Bispo Justino de Oliveira</h1>
+                                            <div id="cardbodyQuemSouEu">
 
-                                            <hr width=“2” size=“100”>
-                                             <p id="descricaoQuemSoueu">Olá mundo!fghfghgfhfghfghfghfghfghfghfghfghfghfghfgh </p>
+                                                <hr width=“2” size=“100”>
+                                                <p id="descricaoQuemSoueu" class="tituloHeade">console.log("OLÁ,MUNDO!")
+                                                </p>
+                                                <p id="descricaoQuemSoueu2" class="tituloHeade"> </p>
+                                                <p id="descricaoQuemSoueu3" class="tituloHeade"> </p>
+                                                <p id="descricaoQuemSoueu4" class="tituloHeade"> </p>
+                                                <p id="descricaoQuemSoueu5" class="tituloHeade"> </p>
+                                            </div>
+
                                         </div>
 
-                                        <div class="col-4">
+                                        <div class=" col-4 d-none d-xl-block">
                                             <img id="imgQuemSou" src="img/imgQuemSouEu.jpg">
                                         </div>
                                     </div>
@@ -275,97 +300,66 @@
                                                 data-parent="#accordion3">
                                                 <div class="card-body">
 
-                                                    <h4>Experiência</h4>
+
 
                                                     <!-- ESCREVA AQUI -->
 
                                                     <div id="accordion31">
                                                         <!-- DIV 3.1.1 -->
                                                         <div class="card">
+
                                                             <div class="card-header" id="heading311"
                                                                 data-toggle="collapse" data-target="#collapse311">
+                                                                <h5 class="mb-0">
 
-                                                                <button class="btn btn" data-toggle="collapse"
-                                                                    data-target="#collapse311" aria-expanded="true"
-                                                                    aria-controls="collapse311">
-                                                                    <h5>Bacharelado em Ciência e Tecnologia</h5>
-                                                                </button>
-                                                                <img id="iconCards" src="img/icon_Cie_Tecnologia.png">
+
+
+
+                                                                    <!--CARD DESCRIÇÃO E DATA-->
+                                                                    <div class="row">
+                                                                        <div class="col-7">
+
+                                                                            <button class="btn btn"
+                                                                                data-toggle="collapse"
+                                                                                data-target="#collapse311"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="collapse311">
+                                                                                <h5>Bacharelado em Engenharia Mecatrônica
+                                                                                </h5>
+                                                                            </button>
+                                                                            <img id="iconCards" src="img/icon_Meca.png">
+                                                                        </div>
+
+                                                                        <div class="col-5">
+                                                                            <div class="container" id="divData">
+                                                                                
+                                                                                <span class="d-inline-block"
+                                                                                    tabindex="0" data-toggle="tooltip"
+                                                                                    title="Bacharelado em Engenharia Mecatrônica">
+                                                                                    <p> Jul/2015 - em andamento </p>
+                                                                                </span>
+                                                                                
+                                                                               
+
+
+
+
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
                                                                 </h5>
+
+
+
+
+
+
+
                                                             </div>
 
                                                             <div id="collapse311" class="collapse"
                                                                 aria-labelledby="heading311" data-parent="#accordion31">
-                                                                <div class="card-body">
-                                                                    <div id="divGraduacao" class="container">
-
-                                                                        <div class="row">
-                                                                            <div class="col-9">
-                                                                                <div class="row">
-                                                                                    <div class="col">
-                                                                                        <a class="btn btn-danger"
-                                                                                            role="button"
-                                                                                            href="download/Trabalho_TCIC_Apresentado.pdf"
-                                                                                            download="Acme Documentation (ver. 2.0.1).txt">Trabalho
-                                                                                            Conclusão de Curso</a>
-                                                                                    </div>
-
-                                                                                    <div class="col">
-                                                                                        <a class="btn btn-danger"
-                                                                                            role="button"
-                                                                                            href="download/Ementa_Bel_Curso.pdf"
-                                                                                            download="Acme Documentation (ver. 2.0.1).txt">Ementa</a>
-                                                                                    </div>
-                                                                                </div>
-
-                                                                                <h1 id="tituloGraducaoCiencia">
-                                                                                    Bacharelado em Ciência e Tecnologia
-                                                                                </h1>
-                                                                                <div class="progress">
-                                                                                    <div class="progress-bar bg-danger"
-                                                                                        role="progressbar"
-                                                                                        style="width: 100%"
-                                                                                        aria-valuenow="100"
-                                                                                        aria-valuemin="0"
-                                                                                        aria-valuemax="100">100%</div>
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div class="col-3-sm">
-                                                                                <img id="icon_Graduacao"
-                                                                                    src="img/icon_Graduacao.png">
-
-                                                                            </div>
-                                                                        </div>
-
-
-
-                                                                    </div>
-
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <!-- DIV 3.1.2 -->
-                                                        <div class="card">
-                                                            <div class="card-header" id="heading312"
-                                                                data-toggle="collapse" data-target="#collapse312">
-                                                                <h5 class="mb-0">
-
-
-                                                                    <button class="btn btn" data-toggle="collapse"
-                                                                        data-target="#collapse312" aria-expanded="true"
-                                                                        aria-controls="collapse312">
-                                                                        <h5>Bacharelado Engenharia Mecatrônica </h5>
-                                                                    </button>
-                                                                    <img id="iconCards" src="img/icon_Meca.png">
-
-                                                                </h5>
-                                                            </div>
-
-                                                            <div id="collapse312" class="collapse"
-                                                                aria-labelledby="heading312" data-parent="#accordion31">
                                                                 <div class="card-body">
                                                                     <div id="divGraduacao" class="container">
 
@@ -399,35 +393,110 @@
 
                                                                 </div>
                                                             </div>
+
+
+
                                                         </div>
 
-                                                        <!-- DIV 3.1.3 -->
+                                                        <!-- DIV 3.1.2 -->
                                                         <div class="card">
-                                                            <div class="card-header" id="heading313"
-                                                                data-toggle="collapse" data-target="#collapse313">
+
+                                                            <div class="card-header" id="heading312"
+                                                                data-toggle="collapse" data-target="#collapse312">
                                                                 <h5 class="mb-0">
 
-                                                                    <button class="btn btn" data-toggle="collapse"
-                                                                        data-target="#collapse313" aria-expanded="true"
-                                                                        aria-controls="collapse313">
-                                                                        <h5> Empresa Júnior</h5>
-                                                                    </button>
+                                                                    <!--CARD DESCRIÇÃO E DATA-->
+                                                                    <div class="row">
+                                                                        <div class="col-7">
 
-                                                                    <img id="iconCards" src="img/icon_EJ.png">
+                                                                            <button class="btn btn"
+                                                                                data-toggle="collapse"
+                                                                                data-target="#collapse312"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="collapse312">
+                                                                                <h5>Bacharelado em Ciência e Tecnologia
+                                                                                </h5>
+                                                                            </button>
+                                                                            <img id="iconCards"
+                                                                                src="img/icon_Cie_Tecnologia.png">
+
+
+
+                                                                        </div>
+
+                                                                        <div class="col-5">
+                                                                            <div class="container" id="divData">
+                                                                                <span class="d-inline-block"
+                                                                                tabindex="0" data-toggle="tooltip"
+                                                                                title="Bacharelado em Ciência e Tecnologia">
+                                                                                <p> Jul/2015 - Dez/2019 </p>
+                                                                            </span>
+                                                                                
+                                                                                
+                  
 
 
 
 
+                                                                            </div>
 
+                                                                        </div>
+                                                                    </div>
                                                                 </h5>
+
                                                             </div>
 
-                                                            <div id="collapse313" class="collapse"
-                                                                aria-labelledby="heading313" data-parent="#accordion31">
+                                                            <div id="collapse312" class="collapse"
+                                                                aria-labelledby="heading312" data-parent="#accordion31">
                                                                 <div class="card-body">
-                                                                    <div id="divEmpresaJunior" class="container">
+                                                                    <div id="divGraduacao" class="container">
 
-                                                                            <!--DESCRIÇÃO DO CARD AQUI -->
+                                                                        <div class="row">
+                                                                            <div class="col-9">
+                                                                                <div class="row">
+                                                                                    <div class="col-6">
+                                                                                        <a class="btn btn-danger"
+                                                                                            role="button"
+                                                                                            href="download/Trabalho_TCIC_Apresentado.pdf"
+                                                                                            download="Acme Documentation (ver. 2.0.1).txt">Trabalho
+                                                                                            Conclusão de Curso</a>
+                                                                                    </div>
+
+                                                                                    <div class="col-3">
+                                                                                        <a class="btn btn-danger"
+                                                                                            role="button"
+                                                                                            href="download/Ementa_Bel_Curso.pdf"
+                                                                                            download="Acme Documentation (ver. 2.0.1).txt">Ementa</a>
+                                                                                    </div>
+
+                                                                                    <div class="col-3">
+                                                                                        <a class="btn btn-danger"
+                                                                                            id="btn3ProjetoExtensao"
+                                                                                            role="button"
+                                                                                            href="https://ufsj.edu.br/cobict/">Site</a>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <h1 id="tituloGraducaoCiencia">
+                                                                                    Bacharelado em Ciência e Tecnologia
+                                                                                </h1>
+                                                                                <div class="progress">
+                                                                                    <div class="progress-bar bg-danger"
+                                                                                        role="progressbar"
+                                                                                        style="width: 100%"
+                                                                                        aria-valuenow="100"
+                                                                                        aria-valuemin="0"
+                                                                                        aria-valuemax="100">100%</div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="col-3-sm">
+                                                                                <img id="icon_Graduacao"
+                                                                                    src="img/icon_Graduacao.png">
+
+                                                                            </div>
+                                                                        </div>
+
 
 
                                                                     </div>
@@ -435,6 +504,180 @@
 
                                                                 </div>
                                                             </div>
+
+                                                        </div>
+
+                                                        <!-- DIV 3.1.3 -->
+                                                        <div class="card">
+
+                                                            <div class="card-header" id="heading313"
+                                                                data-toggle="collapse" data-target="#collapse313">
+                                                                <h5 class="mb-0">
+
+
+
+
+                                                                    <!--CARD DESCRIÇÃO E DATA-->
+                                                                    <div class="row">
+                                                                        <div class="col-7">
+
+                                                                            <button class="btn btn"
+                                                                                data-toggle="collapse"
+                                                                                data-target="#collapse313"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="collapse313">
+                                                                                <h5> Monitoria </h5>
+                                                                            </button>
+                                                                            <img id="iconCards"
+                                                                                src="img/icon_Monitoria.png">
+
+
+                                                                        </div>
+
+                                                                        <div class="col-5">
+                                                                            <div class="container" id="divData">
+
+                                                                                <span class="d-inline-block"
+                                                                                    tabindex="0" data-toggle="tooltip"
+                                                                                    title="Estruturas e Algoritmo de Dados I">
+                                                                                    <p> Set/2020 - em andamento</p>
+                                                                                </span>
+                                                                                <br>
+                                                                                <span class="d-inline-block"
+                                                                                    tabindex="0" data-toggle="tooltip"
+                                                                                    title="Estruturas e Algoritmo de Dados II">
+                                                                                    <p> Out/2019 - Dez/2019 - 3 meses
+                                                                                    </p>
+                                                                                </span>
+                                                                                <br>
+                                                                                <span class="d-inline-block"
+                                                                                    tabindex="0" data-toggle="tooltip"
+                                                                                    title="Programação Orientada a Objeto">
+                                                                                    <p>Ago/2017 - Dez/2017 - 5 meses</p>
+                                                                                </span>
+
+
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+
+                                                                </h5>
+                                                            </div>
+
+                                                            <div id="collapse313" class="collapse"
+                                                                aria-labelledby="heading313" data-parent="#accordion31">
+                                                                <div class="card-body">
+                                                                    <div id="divMonitoria" class="container">
+
+
+                                                                        <!--DESCRIÇÃO DO CARD AQUI -->
+
+                                                                        <div class="container"
+                                                                            id="divComentarioExperiencia">
+
+                                                                            <p>"Eu costumo dizer que a melhor forma de
+                                                                                aprender é ensinando. O meu primeiro
+                                                                                contato com Python, por exemplo, foi por
+                                                                                meio da monitoria. É uma satisfação
+                                                                                imensa ver pessoas aprendendo e
+                                                                                compreendendo quando ensino e, logo
+                                                                                depois de um tempo, retornando para
+                                                                                falar que foi graças a mim que hoje ele
+                                                                                entende a matéria.
+                                                                                Experiências assim que faz com que a
+                                                                                vida tenha mais sentido, que faz com que
+                                                                                tenhamos um propôsito em tudo que
+                                                                                procuramos fazer."</p>
+
+                                                                        </div>
+
+                                                                        <hr>
+                                                                        <div class="row">
+                                                                            <div class="col-9">
+
+                                                                                <div class="row">
+                                                                                    <div class="col">
+                                                                                        <a class="btn btn-outline-info"
+                                                                                            id="btnMonitoria"
+                                                                                            role="button"
+                                                                                            href="download/Declaração_Voluntário_EJ.pdf">Atestado</a>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                                <h1 id="tituloMonitoria"> Algoritmo de
+                                                                                    Estruturas de Dados I</h1>
+
+                                                                            </div>
+
+
+                                                                            <div class="col-3-sm">
+                                                                                <img id="icon_Monitoria"
+                                                                                    src="img/icon_PythonMonitoria.png">
+
+                                                                            </div>
+                                                                            <!-------------CARD TEXTO---------------------->
+                                                                            <div class="col-9">
+                                                                            </div>
+
+                                                                            <div class="col-3-sm">
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <hr>
+
+                                                                        <div class="row">
+                                                                            <div class="col-9">
+
+                                                                                <div class="row">
+                                                                                    <div class="col">
+                                                                                        <a class="btn btn-outline-primary"
+                                                                                            id="btnMonitoria2"
+                                                                                            role="button"
+                                                                                            href="download/Certificado_MonitoriaAEDSII.pdf">Atestado</a>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                                <h1 id="tituloMonitoria2"> Algoritmo de
+                                                                                    Estruturas de Dados II</h1>
+
+                                                                            </div>
+
+                                                                            <div class="col-3-sm">
+                                                                                <img id="icon_Monitoria2"
+                                                                                    src="img/icon_CMonitoria.png">
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <hr>
+
+                                                                        <div class="row">
+                                                                            <div class="col-9">
+
+                                                                                <div class="row">
+                                                                                    <div class="col">
+                                                                                        <a class="btn btn-outline-danger"
+                                                                                            id="btnMonitoria3"
+                                                                                            role="button"
+                                                                                            href="download/Certificado_MonitoriaPOO.pdf">Atestado</a>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                                <h1 id="tituloMonitoria3"> Programação
+                                                                                    Orientada a Objeto </h1>
+
+                                                                            </div>
+
+                                                                            <div class="col-3-sm">
+                                                                                <img id="icon_Monitoria3"
+                                                                                    src="img/icon_JavaMonitoria.png">
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
                                                         </div>
 
                                                         <!-- DIV 3.1.4 -->
@@ -444,17 +687,53 @@
                                                                 <h5 class="mb-0">
 
 
-                                                                    <button class="btn btn" data-toggle="collapse"
-                                                                        data-target="#collapse314" aria-expanded="true"
-                                                                        aria-controls="collapse314">
-                                                                        <h5> Iniciação Científica </h5>
-                                                                    </button>
-
-                                                                    <img id="iconCards" src="img/icon_IC.png">
 
 
 
+                                                                    <!--CARD DESCRIÇÃO E DATA-->
+                                                                    <div class="row">
+                                                                        <div class="col-7">
 
+                                                                            <button class="btn btn"
+                                                                                data-toggle="collapse"
+                                                                                data-target="#collapse314"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="collapse314">
+                                                                                <h5> Iniciação Científica </h5>
+                                                                            </button>
+
+                                                                            <img id="iconCards" src="img/icon_IC.png">
+
+
+
+
+                                                                        </div>
+
+                                                                        <div class="col-5">
+                                                                            <div class="container" id="divData">
+
+                                                                                <span class="d-inline-block"
+                                                                                tabindex="0" data-toggle="tooltip"
+                                                                                title="MPC: Um pacote R para procedimentos de comparações múltiplas">
+                                                                                <p> Ago/2019 - Ago/2020 - 1 ano </p>
+                                                                            </span>
+                                                                            <br>
+                                                                            <span class="d-inline-block"
+                                                                            tabindex="0" data-toggle="tooltip"
+                                                                            title="Métodos de simulação de processos dinâmicos em Redes Complexas">
+                                                                            <p> Mar/2018 - Mar/2019 - 1 ano </p>
+                                                                        </span>
+
+
+                                                                               
+
+
+
+
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
 
                                                                 </h5>
                                                             </div>
@@ -464,8 +743,8 @@
                                                                 <div class="card-body">
                                                                     <div id="divIniciacaoCientifica" class="container">
 
-                                
-                                                                            <!--DESCRIÇÃO DO CARD AQUI -->
+
+                                                                        <!--DESCRIÇÃO DO CARD AQUI -->
 
                                                                     </div>
 
@@ -476,19 +755,47 @@
 
                                                         <!-- DIV 3.1.5 -->
                                                         <div class="card">
+
                                                             <div class="card-header" id="heading315"
                                                                 data-toggle="collapse" data-target="#collapse315">
                                                                 <h5 class="mb-0">
 
-                                                                    <button class="btn btn" data-toggle="collapse"
-                                                                        data-target="#collapse315" aria-expanded="true"
-                                                                        aria-controls="collapse315">
-                                                                        <h5> Monitoria </h5>
-                                                                    </button>
-                                                                    <img id="iconCards" src="img/icon_Monitoria.png">
 
 
 
+                                                                    <!--CARD DESCRIÇÃO E DATA-->
+                                                                    <div class="row">
+                                                                        <div class="col-7">
+
+
+                                                                            <button class="btn btn"
+                                                                                data-toggle="collapse"
+                                                                                data-target="#collapse315"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="collapse315">
+                                                                                <h5> Projeto de Extensão </h5>
+                                                                               
+                                                                            </button>
+                                                                            <img id="iconCards" src="img/icon_PE.png">
+
+                                                                        </div>
+
+                                                                        <div class="col-5">
+                                                                            <div class="container" id="divData">
+
+                                                                                <span class="d-inline-block"
+                                                                                tabindex="0" data-toggle="tooltip"
+                                                                                title="Cursinho Popular Integrar">
+                                                                                <p> Ago/2018 - Dez/2019 - 1 ano 6 meses
+                                                                                </p>
+                                                                            </span>
+                                                                               
+
+
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
 
                                                                 </h5>
                                                             </div>
@@ -496,10 +803,79 @@
                                                             <div id="collapse315" class="collapse"
                                                                 aria-labelledby="heading315" data-parent="#accordion31">
                                                                 <div class="card-body">
-                                                                    <div id="divMonitoria" class="container">
+                                                                    <div id="divProjetoExtensao" class="container">
 
-                                     
-                                                                            <!--DESCRIÇÃO DO CARD AQUI -->
+
+                                                                        <!--EXPERIÊNCIA CONTADA  -->
+                                                                        <div class="container"
+                                                                            id="divComentarioExperiencia">
+
+                                                                            <p>"Cursinho Popular Integrar é um projeto
+                                                                                de extensão maravilhoso. Alunos e
+                                                                                Professors se organizam para preparar
+                                                                                alunos de baixa renda para o vestibular
+                                                                                ENEM. Nunca entrei em um sala para
+                                                                                lecionar Matemática para tantos alunos.
+                                                                                Foi
+                                                                                um desafio e um enorme aprendizado ter
+                                                                                participado deste projeto. Troca de
+                                                                                ideia de como repassar o conteúdo
+                                                                                didático encaixando na realidade dos
+                                                                                alunos, preparar dinâmicas e eventos que
+                                                                                façam com que eles se sintam
+                                                                                incentivados. Chegar na aula e ouvir um
+                                                                                "Professor, quando você explica a
+                                                                                Matemática, eu consigo entender" não há
+                                                                                preço. Permaneci por 1 ano e meio, e
+                                                                                levo comigo o pedacinho de cada um que
+                                                                                acreditou tanto na maneira como ensinei.
+
+                                                                                "</p>
+
+                                                                        </div>
+
+                                                                        <hr>
+                                                                        <!--DESCRIÇÃO DO CARD AQUI -->
+                                                                        <div class="row">
+                                                                            <div class="col-9">
+
+                                                                                <div class="row">
+                                                                                    <div class="col-3">
+                                                                                        <a class="btn btn-primary"
+                                                                                            id="btnProjetoExtensao"
+                                                                                            role="button"
+                                                                                            href="download/Certificado_CursinhoPopularIntegrar.pdf">Certificado</a>
+                                                                                    </div>
+
+                                                                                    <div class="col-3">
+                                                                                        <a class="btn btn-primary"
+                                                                                            id="btn2ProjetoExtensao"
+                                                                                            role="button"
+                                                                                            href="https://www.instagram.com/integrar.cursinho/?hl=pt-br">Instagram</a>
+                                                                                    </div>
+                                                                                    <div class="col-3">
+                                                                                        <a class="btn btn-primary"
+                                                                                            id="btn3ProjetoExtensao"
+                                                                                            role="button"
+                                                                                            href="https://www.ifmg.edu.br/ourobranco/noticias/cursinho-popular-integrar-abre-edital-para-educadores-voluntarios">Site</a>
+                                                                                    </div>
+
+                                                                                    <hr>
+
+                                                                                </div>
+                                                                                <h1 id="tituloEmpresaJunior">Cursinho
+                                                                                    Popular Integrar</h1>
+                                                                                <hr>
+                                                                            </div>
+
+
+                                                                            <div class="col-3-sm">
+                                                                                <img id="icon_EmpresaJunior"
+                                                                                    src="img/icon_ProjetoExtensao.png">
+
+                                                                            </div>
+                                                                        </div>
+
 
 
                                                                     </div>
@@ -507,21 +883,56 @@
 
                                                                 </div>
                                                             </div>
+
+
+
+
+
                                                         </div>
 
                                                         <!-- DIV 3.1.6 -->
                                                         <div class="card">
+
+
                                                             <div class="card-header" id="heading316"
                                                                 data-toggle="collapse" data-target="#collapse316">
                                                                 <h5 class="mb-0">
 
 
-                                                                    <button class="btn btn" data-toggle="collapse"
-                                                                        data-target="#collapse316" aria-expanded="true"
-                                                                        aria-controls="collapse316">
-                                                                        <h5> Projeto de Extensão </h5>
-                                                                    </button>
-                                                                    <img id="iconCards" src="img/icon_PE.png">
+                                                                    <!--CARD DESCRIÇÃO E DATA-->
+                                                                    <div class="row">
+                                                                        <div class="col-7">
+                                                                            <button class="btn btn"
+                                                                                data-toggle="collapse"
+                                                                                data-target="#collapse316"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="collapse316">
+                                                                                <h5> Empresa Júnior</h5>
+                                                                            </button>
+
+                                                                            <img id="iconCards" src="img/icon_EJ.png">
+
+
+                                                                        </div>
+
+                                                                        <div class="col-5">
+                                                                            <div class="container" id="divData">
+
+                                                                                <span class="d-inline-block"
+                                                                                tabindex="0" data-toggle="tooltip"
+                                                                                title="Tristate - Consultoria em Engenharia Mecatrônica">
+                                                                                <p> Set/2017 - Jun/2018 - 11 meses </p>
+                                                                            </span>
+                                                                                
+                                                                                
+
+
+
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+
 
 
                                                                 </h5>
@@ -530,11 +941,84 @@
                                                             <div id="collapse316" class="collapse"
                                                                 aria-labelledby="heading316" data-parent="#accordion31">
                                                                 <div class="card-body">
-                                                                    <div id="divProjetoExtensao" class="container">
+                                                                    <div id="divEmpresaJunior" class="container">
 
-                                                                      
                                                                         <!--DESCRIÇÃO DO CARD AQUI -->
-                                                                         
+                                                                        <div class="container"
+                                                                            id="divComentarioExperiencia">
+
+                                                                            <p>" Nunca imaginei o impacto interpessoal
+                                                                                que essa experiência traria pra minha
+                                                                                vida. Imersões, viagens para encontros
+                                                                                de EJs diversas, troca de ideias e
+                                                                                experiência tanto de projetos quanto de
+                                                                                gestão. Fui Assessor de Projetos,
+                                                                                participei no desenvolvimento de APPs
+                                                                                comerciais e em um APP de entretenimento
+                                                                                para os jogos Republicanos da região.
+                                                                                Trabalhamos com a plataforma AppInventor
+                                                                                (Linguagem em Bloco). Aprendi aqui a
+                                                                                real importância de trabalhar em grupo,
+                                                                                em equipe. Aqui foi a primeira
+                                                                                experiêcnia de fracasso. Fracasso por
+                                                                                estar tentando fazer tudo só, já que eu
+                                                                                era o único empenhado a mexer na
+                                                                                Linguagem. Não queria ninguém mexendo no
+                                                                                código ou simplesmente não sabia em
+                                                                                como
+                                                                                organizar da melhor forma a questão de
+                                                                                repasses para que andassemos lado a lado
+                                                                                e em sincronia com o mesmo. Foi uma
+                                                                                lição enriquecedora, que acabei levando
+                                                                                para os próximos projetos que faria.
+
+                                                                                "</p>
+
+                                                                        </div>
+
+                                                                        <hr>
+                                                                        <!--DESCRIÇÃO DO CARD AQUI -->
+                                                                        <div class="row">
+                                                                            <div class="col-9">
+
+                                                                                <div class="row">
+                                                                                    <div class="col-5">
+                                                                                        <a class="btn btn-danger"
+                                                                                            id="btnEmpresaJunior"
+                                                                                            role="button"
+                                                                                            href="download/Declaração_Voluntário_EJ.pdf">Declaração
+                                                                                            Voluntário</a>
+                                                                                    </div>
+
+                                                                                    <div class="col-5">
+                                                                                        <a class="btn btn-danger"
+                                                                                            id="btn2EmpresaJunior"
+                                                                                            role="button"
+                                                                                            href="download/Certificado_Destaque_EJ.pdf"
+                                                                                            download="Acme Documentation (ver. 2.0.1).txt">Certificado
+                                                                                            de Destaque</a>
+                                                                                    </div>
+                                                                                    <div class="col-2">
+                                                                                        <a class="btn btn-danger"
+                                                                                            id="btn2EmpresaJunior"
+                                                                                            role="button"
+                                                                                            href="https://tristatejr.com"
+                                                                                            download="Acme Documentation (ver. 2.0.1).txt">Site</a>
+                                                                                    </div>
+
+
+                                                                                </div>
+                                                                                <h1 id="tituloEmpresaJunior"> Tristate -
+                                                                                    Consultoria em Mecatrônica</h1>
+                                                                                    <hr>
+                                                                            </div>
+
+                                                                            <div class="col-3-sm">
+                                                                                <img id="icon_EmpresaJunior"
+                                                                                    src="img/icon_Tristate.png">
+
+                                                                            </div>
+                                                                        </div>
 
 
                                                                     </div>
@@ -542,14 +1026,16 @@
 
                                                                 </div>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <!-- DIV 3.2 -->
 
+                                        <!-- ARRUMAR O DROP LATERAL DA LOGO  OBS: RESOLVIDO  ERA A BARRA DE ROLAGEM SURGINDO LOGO DEPOIS DA DESCRIÇÃO DO CARDt-->
+                                        <!-- DIV 3.2 -->
                                         <div class="card">
                                             <div class="card-header" id="heading32" data-toggle="collapse"
                                                 data-target="#collapse32">
@@ -562,33 +1048,103 @@
                                             <div id="collapse32" class="collapse" aria-labelledby="heading32"
                                                 data-parent="#accordion3">
                                                 <div class="card-body">
-                                                    <div id="divGraduacao" class="container">
+                                                    <div id="accordion32">
+                                                        <!--DIV 3.2.1 -->
+                                                        <div class="card">
 
-                                                        <div class="row">
-                                                            <div class="col-9">
-                                                                <h1 id="tituloGraducaoMecatronica"> Engenharia de Qual.
-                                                                    de Software</h1>
-                                                                <div class="progress">
-                                                                    <div class="progress-bar bg-info" role="progressbar"
-                                                                        style="width: 11%" aria-valuenow="100"
-                                                                        aria-valuemin="0" aria-valuemax="100">11%</div>
+                                                            <div class="card-header" id="heading321"
+                                                                data-toggle="collapse" data-target="#collapse321">
+                                                                <h5 class="mb-0">
+
+                                                                    <!--CARD DESCRIÇÃO E DATA-->
+                                                                    <div class="row">
+                                                                        <div class="col-7">
+                                                                            <button class="btn btn"
+                                                                                data-toggle="collapse"
+                                                                                data-target="#collapse321"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="collapse321">
+                                                                                <h5> Engenharia de Qualidade de Software
+                                                                                </h5>
+                                                                            </button>
+
+                                                                            <img id="iconCards"
+                                                                                src="img/icon_PosGraduacao.png">
+
+
+                                                                        </div>
+
+                                                                        <div class="col-5">
+                                                                            <div class="container" id="divData">
+                                                                                
+                                                                                <span class="d-inline-block"
+                                                                                tabindex="0" data-toggle="tooltip"
+                                                                                title="Engenharia de Qualidade de Software">
+                                                                                <p> Ago/2020 - andamento </p>
+                                                                            </span>
+                                                                                
+                                                                               
+                                                                                
+
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </h5>
+                                                            </div>
+
+
+                                                            <div id="collapse321" class="collapse"
+                                                                aria-labelledby="heading321" data-parent="#accordion32">
+                                                                <div class="card-body">
+                                                                    <!--CONTEUDO DENTRO DO CARD-->
+                                                                    <div id="divPosGraduacao" class="container">
+
+                                                                        <div class="row">
+                                                                            <div class="col-9">
+                                                                                <h1 id="tituloPosGraduacao"> Engenharia
+                                                                                    de Qual.
+                                                                                    de Software</h1>
+
+
+                                                                                <div class="progress">
+                                                                                    <div class="progress-bar bg-info"
+                                                                                        role="progressbar"
+                                                                                        style="width: 22%"
+                                                                                        aria-valuenow="100"
+                                                                                        aria-valuemin="0"
+                                                                                        aria-valuemax="100">22%</div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="col-3">
+                                                                                <img id="icon_PosGraduacao"
+                                                                                    src="img/icon_Senac.png">
+
+                                                                            </div>
+                                                                        </div>
+
+
+
+                                                                    </div>
+
+
                                                                 </div>
                                                             </div>
 
-                                                            <div class="col-3-sm">
-                                                                <img id="icon_PosGraduacao"
-                                                                    src="img/icon_PosGraduacao.png">
 
-                                                            </div>
+
+
+
+
+
+
                                                         </div>
-
-
 
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
 
@@ -607,7 +1163,7 @@
             <div class="col-sm-2">
                 <div id="divRightBody" class="container">
 
-                   
+
 
 
 
@@ -615,11 +1171,11 @@
                     <div id="divTituloHardSkill">
 
                         <div class="form-row">
-                            <div class="col">
+                            <div class="col-6">
                                 <h5 id="tituloHardSkill"> Hardskills</h5>
                             </div>
 
-                            <div class="col">
+                            <div class="col-6">
                                 <img id="imgEngrenagem1" src="img/icon_Engrenagem1.png">
                                 <img id="imgEngrenagem2" src="img/icon_Engrenagem2.png">
                             </div>
@@ -662,15 +1218,15 @@
 
 
                         <div class="form-row">
-                            <div class="col">
+                            <div class="col-4">
                                 <img id="iconCplusplus" class="iconHardSkill" src="img/icon_Cplusplus.png">
                             </div>
 
-                            <div class="col">
+                            <div class="col-4">
                                 <img id="iconC" class="iconHardSkill" src="img/icon_C.png">
                             </div>
 
-                            <div class="col">
+                            <div class="col-4">
                                 <img id="iconJava" class="iconHardSkill" src="img/icon_Java.png">
                             </div>
                         </div>
@@ -693,7 +1249,7 @@
 
 
 
-                   
+
 
 
 
@@ -725,7 +1281,7 @@
 
 
 
-<!---------------- JS -------------------->
+    <!---------------- JS -------------------->
     <script src="script.js"></script>
 
 </body>
