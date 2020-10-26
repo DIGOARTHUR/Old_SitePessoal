@@ -6,8 +6,9 @@
 
 }
 
+/*lg window>992px   md 768<window<991  sm  576<window<767   xs window<576px */
 
-
+@media screen and (min-width: 577px ){
 /***********************************/
 /****************BODY****************/
 /***********************************/
@@ -123,7 +124,7 @@ margin-top: 5px;
 
 
 
-#divAvatar #imgAvatar{
+#imgAvatar{
     width: 200px;
     height: 200px; 
     border-radius: 50%;
@@ -164,9 +165,6 @@ margin-top: 5px;
 /************************************/
 
 
-
-
-
 /* DIV PAI */
 #divCenterBody{
 
@@ -203,11 +201,11 @@ margin-top: 5px;
 
 
  /* CARD 1  */
- 
+ /***********/
  
  
  /* CARD 2  */
- 
+  /***********/
  /* CARD 2.1  */
  
 
@@ -228,6 +226,7 @@ margin-top: 5px;
 #descricaoQuemSoueu{
     font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
+   
 }
 
 #descricaoQuemSoueu2,#descricaoQuemSoueu3,#descricaoQuemSoueu4,#descricaoQuemSoueu5{
@@ -241,14 +240,10 @@ font-size: 18px;
   /* CARD 3.1  */
 
    /* CARD 3.1.1  */
-   #tituloGraducaoMecatronica{
-    font-family: 'FonteDiploma';
-    font-size: 41px;
-    margin-top: 3px;
-}
 
 
- /* CARD 3.1.2  */
+
+/* CARD 3.1.2  */
  #divGraduacao,#divPosGraduacao{
 
     border: black solid 2px;
@@ -327,7 +322,7 @@ background-color:black;
 
 
 
- /**********************************************/
+/**********************************************/
 /*************** RIGHT BODY */
 /************************************/
 
@@ -391,9 +386,434 @@ background-color:black;
 }
 
 
+/*BLOCOS */
+#coisasCuriosas{
+    height: 100px;
+    width: 100%;
+    border: red solid 2px;
+    margin-top: 50px;
+}
+
+.bloco1,.bloco2,.bloco3{
+    height: 400px;
+    width: 280px;
+    border-radius: 40px;
+    border: rgb(86, 61, 124) solid 2px;
+    background-color: rgb(86, 61, 124);
+    color: seashell;
+    padding:15px 15px 0px 15px;
+}
+
+.bloco3:hover{
+
+}
+
+}
+
+
+@media screen and (max-width: 576px ){
+    /***********************************/
+    /****************BODY****************/
+    /***********************************/
+    body {
+        height:100%; 
+        width:100%;
+     }
+    
+     /*LINHAS D MARCAÇÃO*/
+    
+     .row,.col{
+         border: 
+     }
+    
+    
+    #divAvatar,.col-sm,#divGroupIconsHeader,.col-sm-2,.col-sm-8,.col-10,#divCenterBody{
+        border:
+    
+    }
+    
+    .col-sm-8{
+        border-left: rgb(211, 211, 211) solid 1px ;
+        border-right: rgb(211, 211, 211) solid 1px ;
+    }
+    
+    
+     
+    /*******************************************************/
+    /*************** Header ******************************* /
+    /******************************************************/
+    
+    
+    
+    /**********************************/
+    
+    /* DIV PAI HEADER */
+    #divHeader{
+        background:  rgb(86, 61, 124) ;
+        height: 75px;
+        }
+    
+    
+    .tituloHeader{
+       
+        
+        font-size: 37px;
+        color: white;
+    }
+    
+    /* DIV TITULO  */
+    #divTituloHeader{
+        
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    #logoPage,.tituloHeader{
+    
+    width: 65px;
+    height: 65px;
+    margin-top: 5px;
+    
+    
+    }
+    
+    
+    /* CONFIGURAÇÃO BARRA PISCANDO  */
+    .tituloHeader:after{
+        content: '|';
+        margin-left: 5px;
+        opacity: 1;
+        animation: pisca .7s infinite;
+       }
+    
+       @keyframes pisca{
+        0%, 100%{
+            opacity: 1;
+        }
+        50%{
+            opacity: 0;
+        }
+    }
+    
+    
+    /* ICONS */
+    #divGroupIconsAvatar{
+        height: 100%;
+        margin-left: 30px;
+        margin-top: 25px;
+        }
+    
+    .iconHeader{
+        height:32px;
+        width: 32px;
+        margin-left: 10px  ;
+      }
+    
+    
+    
+    
+    
+     /**********************************************/
+    /*************** LEFT BODY */
+    /************************************/
+    
+    /*DIV PAI */
+    #divLeftBody {
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    
+    }
+    
+    
+    
+    #imgAvatar{
+        width: 200px;
+        height: 200px; 
+        border-radius: 50%;
+        margin-left: 60px;
+     }
+    
+    
+     /*DIV CONTATOS */
+    #divContato{
+        margin-top: 50px;
+       font-size: 12px;
+       
+    }
+    
+    #divCopyryght{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    #divCopyryght #logo_Page_Footer{
+      
+        width: 70px;
+        height: 70px;
+    }
+      
+    
+    
+    #divCopyryght #autoria{
+        font-size: 12px;
+        
+    }
+    
+    
+    
+    
+     /**********************************************/
+    /*************** CENTER BODY */
+    /************************************/
+    
+    
+    /* DIV PAI */
+    #divCenterBody{
+    
+        height: 640px;
+        overflow:auto; 
+        
+        margin-top: 50px;
+       
+     }
+    
+    /*EFEITO DE COR DE FUNDO MUDA COM O PASSAR DO MOUSE*/
+     .card-header:hover{
+    
+        background-color: rgba(248, 248, 248, 0);
+    }
+    
+    /*HABILITAR O CURSOR NOS CARDS*/
+    .card-header{
+        cursor: pointer;
+    }
+    
+    /*HABILITA EFEITO SUAVE A ABERTURA DOS CARDS*/
+     #collapse1,#collapse2,#collapse3,#collapse31,#collapse32,#collapse311,#collapse312,#collapse313,#collapse314,#collapse315,#collapse316,#collapse321{
+        -webkit-transition: height 500ms ease;
+     }
+    
+     /*ICONE CARDS */
+    .iconCards{
+         width: 50px;
+         height: 50px;
+     
+     }
+     
+    
+    
+     /* CARD 1  */
+     /***********/
+     
+     
+     /* CARD 2  */
+      /***********/
+     /* CARD 2.1  */
+     
+    
+    #cardbodyQuemSouEu{
+     background-color:rgb(247, 247, 247)
+    }
+    
+    #imgQuemSou{
+         height:100% ;
+         width: 100%;
+         
+    }
+     
+    #h1QuemSouEu{
+         font-size: 25px;
+    }
+     
+    #descricaoQuemSoueu{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 17px;
+       
+    }
+    
+    #descricaoQuemSoueu2,#descricaoQuemSoueu3,#descricaoQuemSoueu4,#descricaoQuemSoueu5{
+    font-family:Courier, monospace;
+    font-size: 18px;
+    }
+    /* CARD 3  */
+
+  /* data cards*/  
+.d-inline-block{
+        font-size: 11px;     
+}
+
+    
+     
+      /* CARD 3.1  */
+    
+    /* CARD 3.1.1  Bacharelado em Engenharia Mecatronica */
+#tituloGraducaoCiencia,#tituloPosGraduacao, #tituloGraducaoMecatronica{
+    font-family: 'FonteDiploma';
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+#icon_Graduacao{
+    width: 50px;
+    height: 28px;
+    
+}
+
+#heading312{
+    margin-bottom: 20px;
+} 
+
+#divGraduacao,#divPosGraduacao{
+    
+    border: black solid 2px;
+}
+
+ /* CARD 3.1.2 Bacharelado em Ciência e Tecnologia */
 
 
 
-
-
-
+    
+/* CARD 3.1.3 MONITORIA   */
+    
+    #icon_Monitoria,#icon_Monitoria2,#icon_Monitoria3{
+    
+        height:35px ;
+        width:35px ;
+        margin-top: 10px;
+        }
+        
+        #tituloMonitoria,#tituloMonitoria2,#tituloMonitoria3{
+        font-size: 15px;
+        
+        }
+        
+        #divComentarioExperiencia,#divData{
+            border-left: silver solid 3px;
+            background-color: rgb(248, 248, 248);
+        }
+        
+        #divData{
+            font-size: 15px;
+            border-left: silver solid 3px;
+            background-color: rgb(248, 248, 248);
+        
+        }
+        
+    
+    
+    
+    
+    
+    /* CARD 3.1.6 EMPRESA JUNIOR   */
+    
+    
+    
+    #tituloEmpresaJunior{
+        font-family: 'FonteCertificado';
+        font-size: 15px;
+    }
+    
+    #btn2EmpresaJunior,#btnEmpresaJunior{
+    color:red;
+    background-color:black;
+    }
+    
+    
+    
+    /* CARD 3.2 POS GRADUACAO */
+    /*Logo config - pos graducao 3.2*/
+    #icon_PosGraduacao,#icon_EmpresaJunior{
+        width: 40px;
+        height: 40px;
+    }
+    
+    
+    
+    /**********************************************/
+    /*************** RIGHT BODY */
+    /************************************/
+    
+    
+    
+    
+    #divRightBody{
+       
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        margin-top: 50px;
+    }
+    
+    #tituloHardSkill{
+        
+        font-size: 25px;
+        color: rgb(151, 161, 237);
+        margin-top: 10px;
+      
+    }
+    
+    /*EFEITO ENGRENAGENS*/
+    @keyframes gira {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    #imgEngrenagem1{
+        width: 50px;
+        height: 50px;
+        animation: gira 15s linear infinite;
+    }
+    
+    
+    @keyframes giraAntihorario {
+        to {
+            transform: rotate(-360deg);
+        }
+    }
+    
+    
+    #imgEngrenagem2{
+       
+        animation: giraAntihorario 15s linear infinite;
+    }
+    
+    
+    /*SUBTITULOS E ICONS*/
+    #subTituloHardSkill{
+        background-color: rgb(151, 161, 237); ;
+        margin-top: 10px;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .iconHardSkill{
+        width: 55px;
+        height: 55px;
+        
+    }
+    
+    
+    /*BLOCOS */
+    #coisasCuriosas{
+        height: 100px;
+        width: 100%;
+        border: red solid 2px;
+        margin-top: 50px;
+    }
+    
+    .bloco1,.bloco2,.bloco3{
+        height: 400px;
+        width: 280px;
+        border-radius: 40px;
+        border: rgb(86, 61, 124) solid 2px;
+        background-color: rgb(86, 61, 124);
+        color: seashell;
+        padding:15px 15px 0px 15px;
+    }
+    
+    .bloco3:hover{
+    
+    }
+    
+    }
