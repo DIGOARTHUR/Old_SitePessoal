@@ -2,15 +2,6 @@
 // EFEITO ÍCONE SOCIAIS HEADER
 //******************************************
 
-
-//****************************************** 
-// EFEITO DIGITAR HEADER
-//******************************************
-
-
-
-
-
 function setNewImage(valorIcon) {
 
 
@@ -58,6 +49,11 @@ function setOldImage(valorIcon) {
 
 }
 
+
+
+//****************************************** 
+// EFEITO DIGITAR HEADER  "QUEM SOU SEU"
+//******************************************
 
 
 const element = document.querySelector('#descricaoQuemSoueu');
