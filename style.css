@@ -6,12 +6,21 @@
 
 }
 
+
+
+/*and (max-width: 1280px) and (min-width: 841px) */
 /*lg window>992px   md 768<window<991  sm  576<window<767   xs window<576px */
 
 @media screen and (min-width: 577px ){
 /***********************************/
 /****************BODY****************/
 /***********************************/
+
+#carouselExampleIndicators{
+    width: 100px;
+    height: 100px;
+}
+
 body {
     height:100%; 
     width:100%;
@@ -104,9 +113,20 @@ margin-top: 5px;
 .iconHeader{
     height:32px;
     width: 32px;
-    margin-left: 10px  ;
+    margin-left: 15px  ;
+  }
+  .iconHeader:hover{
+    margin-top: 5px;
+    transition: 0.6s;
   }
 
+    
+   
+
+
+#menuIcons{
+display: flex;
+}
 
 
 
