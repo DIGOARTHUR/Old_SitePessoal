@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo++</title>
 
+
+    <!-- FONTE RALEWAY -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -37,8 +41,8 @@
     <link rel="stylesheet" href="style.css">
 
 
-
-
+    
+   
 
 </head>
 
@@ -71,7 +75,7 @@
 
 
             </div>
-            <div id="divGroupIconsHeader" class="col-lg-6">
+            <div id="divGroupIconsHeader" class="col-lg-4">
 
                 <div class="container" id="menuIcons">
 
@@ -106,6 +110,28 @@
 
 
             </div>
+
+<!-- BOTÕES DE TRADUÇÃO DE PAGINA 
+ <div id="divGroupIconsHeader" class="col-lg-2">
+
+                <div class="container" id="menuIcons">
+
+                    
+                    <a href="#"> <img id="iconLingua" class="iconHeader" onclick="lingua(1)" src="img/icon_EUA.png"></a>
+                    <a href="#"> <img id="iconLingua" class="iconHeader" onclick="lingua(0)" src="img/icon_BR.png"></a>
+                  
+                
+
+        
+                </div>
+
+
+
+            </div>
+-->
+         
+
+
         </div>
 
     </div>
@@ -119,7 +145,7 @@
             <!---------------------------------------------------->
             <!--DIV LEFT BODY-------------------------------------------------->
             <!---------------------------------------------------->
-            <div class="col-xs-2 col-lg-2">
+            <div class="col-lg-2 col-xs-none">
                 <div id="divLeftBody" class="container">
 
 
@@ -178,8 +204,11 @@
                     <!---------------------------------------------------->
 
 
+                   <div>
 
-                    <div id="divContato" class="container">
+
+                   </div>
+                    <div id="divContato" class="d-none d-lg-block">
 
 
                         <hr>
@@ -198,7 +227,7 @@
 
 
 
-                    <div id="divCopyryght" class="container">
+                    <div id="divCopyryght" class="d-none d-lg-block">
 
                         <img id="logo_Page_Footer" src="img/logo_Page_Footer.png"> <img id="" src="img/img_Construcao.png"> 
                         <br>
@@ -212,10 +241,86 @@
 
                 </div>
             </div>
+
+
+
+
+
             <!---------------------------------------------------->
             <!--DIV CENTER BODY-------------------------------------------------->
             <!---------------------------------------------------->
-            <div id class="col-xs-8 col-lg-8 ">
+            
+            <div id="divMobile576"  class="col-xs-8 d-lg-none "> <!--Boby Center window < 576px -->
+
+                      <div class="formacao">
+                        <h6 class="instituicao">Universidade Federal de São João del-Rei</h6>
+
+                        <p class="data"> 2015 -2019 </p>
+
+                        <h6 class="curso">Bacharelado Ciência e Tecnologia</h6>
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">100%</div>
+                          </div>
+
+                          <p class="descricaoCurso">
+                            Neste curso tive a oportunidade de aprimorar, descobrir e aprender habilidades na área voltada para as exatas da Engenharia. 
+                            Mesclei habilidades na área de Mecânica, Elétrica e, principalmente, toda voltada para Computação.
+                          </p>
+                      </div>
+
+                      <hr class="separador">
+                
+
+                      <div class="formacao">
+                        <h6 class="instituicao">Universidade Federal de São João del-Rei</h6>
+
+                        <p class="data"> 2015 - Cursando </p>
+
+                        <h6 class="curso">Bacharelado Engenharia Mecatrônica</h6>
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%</div>
+                          </div>
+                          <p class="descricaoCurso">
+                            A Engenharia me trouxe um desafio e necessidade gigantesca na questão de empreender, criar e me tornar cada vez mais autodidata.
+                            Engenharia Mecatrônica é um curso que possui um leque enorme de áreas a serem estudadas focada na Mecânica, Elétrica e Computação
+                          </p>
+                      </div>
+
+                      <hr class="separador">
+
+                      <div class="formacao">
+
+                         
+
+                        
+                        <h6 class="instituicao">Serviço Nacional de Aprendizagem Comercial</h6>
+
+                        <p class="data"> 2020 - Cursando </p> 
+
+                        <h6 class="curso">Pós Graduação Engenharia de Qualidade de Software</h6>
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
+                          </div>
+                          <p class="descricaoCurso">
+                            Essa pós me traz uma visão além do apenas estar sentado na mesa para programar. Aqui é abordado todo o processo, organização, e métodos antes de codar qualquer programa. E vai além disso na verdade, o processo é voltado para o macro (Empresa e Equipe) obtendo todo um efeito positivo no micro (Softwares e Serviços).
+                          </p>
+                        
+                      </div>
+                         
+                        
+                   
+
+                
+                
+                
+            </div>
+
+            
+        
+            <div  class="col-8 d-none d-lg-block "> <!--Boby Center window < 992px -->
                 <div id="divCenterBody" class="container">
                     <div id="accordion">
                         <!-- DIV 1 PROJETOS -->
@@ -225,7 +330,7 @@
 
                                     <button class="btn btn" data-toggle="collapse" data-target="#collapse1"
                                         aria-expanded="true" aria-controls="collapse1">
-                                        <h5> Projeto </h5>
+                                        <h5 id="NameAbaProjeto" > Projeto </h5>
                                     </button>
                                     <img id="iconProjeto" class="iconCards" src="img/icon_Projeto.png ">
                                 </h5>
@@ -234,8 +339,8 @@
                             <div id="collapse1" class="collapse " aria-labelledby="heading1" data-parent="#accordion">
                                 <div class="card-body">
 
-                                    <h3>Objetivo</h3>
-                                    <p>
+                                    <h3 id="NameTituloObjetivo">Objetivo</h3>
+                                    <p id="NameDescricaoObjetivo">
                                         Chegou um ponto da minha graduação que vi a necessidade de unificar tudo
                                         que fiz, tudo que desenvolvi
                                         em um só lugar. Um lugar onde eu possa organizar tudo ao meu respeito, seja as
@@ -250,13 +355,16 @@
 
                                     <hr width=“2” size=“100”>
 
-                                    <h3>Agradecimentos</h3>
-                                    Quero agradecer a todos que sempre acreditaram em mim, me procurando para ajudá-los
-                                    na área ou talvez apenas elogiando o que faço.
-                                    Github por estar proporcionando a oportunidade de não só apenas existir aqui neste
-                                    mundo, mas o de poder construir algo que reflita minha identidade.
-                                    Isso aqui não parece ser algo grandioso, mas há um peso e um significado enorme para
-                                    mim.
+                                    <h3  id="NameTituloAgradecimentos" >Agradecimentos</h3>
+                                    <p id="NameDescricaoAgradecimentos">
+                                        Quero agradecer a todos que sempre acreditaram em mim, me procurando para ajudá-los
+                                        na área ou talvez apenas elogiando o que faço.
+                                        Github por estar proporcionando a oportunidade de não só apenas existir aqui neste
+                                        mundo, mas o de poder construir algo que reflita minha identidade.
+                                        Isso aqui não parece ser algo grandioso, mas há um peso e um significado enorme para
+                                        mim.
+                                    </p>
+                                
 
 
 
@@ -1021,8 +1129,7 @@
                                                                                 estar tentando fazer tudo só, já que eu
                                                                                 era o único empenhado a mexer na
                                                                                 Linguagem. Não queria ninguém mexendo no
-                                                                                código ou simplesmente não sabia em
-                                                                                como
+                                                                                código ou simplesmente não sabia como
                                                                                 organizar da melhor forma a questão de
                                                                                 repasses para que andassemos lado a lado
                                                                                 e em sincronia com o mesmo. Foi uma
@@ -1218,10 +1325,15 @@
 
                 </div>
             </div>
+       
+
+
+
+
             <!--------------------------------------------------------------------------------------->
             <!------------------ DIV RIGHT BODY--------------------------------->
             <!-- -------------------------------------------------------------->
-            <div class="col-xs-2 col-lg-2 ">
+            <div class="col-2 d-none d-lg-block">
                 <div id="divRightBody" class="container">
 
 
