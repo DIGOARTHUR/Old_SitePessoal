@@ -192,6 +192,7 @@ display: flex;
 /************************************/
 
 
+
 .col-xs-8{
     display:none;
     background-color: blue;
@@ -227,10 +228,13 @@ display: flex;
 
  /*ICONE CARDS */
 .iconCards{
-     width: 50px;
-     height: 50px;
+     width: 40x;
+     height: 40px;
+     float:left;
  
  }
+
+
  
 
 
@@ -268,6 +272,105 @@ font-family:Courier, monospace;
 font-size: 18px;
 }
 /* CARD 3  */
+
+.bio{
+    border-left: 3px solid rgb(95, 65, 139);
+    margin-bottom: 30px;
+    padding-left: 10px;
+    }
+    
+    
+    .formacao,.atividadeComplementares{
+        margin-bottom: 40px;
+        
+    }
+    .tittleFormacao,.tittleAtividadeComplementar{
+        color: white;
+        background-color: rgb(95, 65, 139);
+        margin-bottom: 20px;
+        padding: 3px;
+        font-family: 'Raleway'; 
+    }
+    .instituicao{
+       
+        color: white;
+        background-color: rgb(113, 78, 165);
+        margin: 0px;
+        padding: 3px;
+        font-size: 13px;
+        font-family: 'Raleway';    
+    }
+    
+    .data{
+        display: inline-block;
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Raleway';
+        font-size: 14px;
+           
+    }
+    
+    .bloco{
+        display: inline-block;
+       
+    }
+    
+
+
+    .curso,.tipoAtividade{
+        font-weight: bolder;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-size: 18px;
+        font-family: 'Raleway';
+    }
+    #iconFormacao{
+        height: 25px;
+        width: 25px;
+        margin-bottom: 8px;
+    }
+    
+    .progress{
+        
+        width: 300px;
+        height: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .progress-bar{
+        
+        background-color: rgb(95, 65, 139);
+    }
+    
+    .descricaoCurso{
+        font-family: 'Raleway';
+        font-size: 13px;
+    
+    }
+    
+    
+    .separador{
+        border: 0.5px solid rgb(201, 201, 201);
+    }
+
+ /*Botão*/
+
+ .buttonFormacao{
+     background-color: rgb(95, 65, 139);
+     color: seashell;
+     font-size: 10px;
+     
+ }
+ .buttonFormacao:hover{
+    background-color: rgb(122, 84, 179);
+   
+    
+}
+
+
+
+
+
 
 
  
@@ -450,7 +553,7 @@ background-color:black;
     /***********************************/
     /****************BODY****************/
     /***********************************/
-body {
+ body {
         height:100%; 
         width:100%;
 }
@@ -602,7 +705,11 @@ body {
     /*************** CENTER BODY APRESENTACAO *****/
     /********************************************/
     
-    
+.bio{
+border-left: 3px solid rgb(95, 65, 139);
+margin-bottom: 30px;
+padding-left: 10px;
+}
 
 #divMobile576{
  border: 2px ;
@@ -667,7 +774,7 @@ body {
     border: 0.5px solid rgb(201, 201, 201);
 }
 
-
+}
 
 
 
