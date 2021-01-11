@@ -11,6 +11,7 @@
 /*and (max-width: 1280px) and (min-width: 841px) */
 /*lg window>992px   md 768<window<991  sm  576<window<767   xs window<576px */
 
+/*DESKTOP*/
 @media screen and (min-width: 577px ){
 /***********************************/
 /****************BODY****************/
@@ -28,20 +29,15 @@ body {
 
  /*LINHAS D MARCAÇÃO*/
 
- .row,.col{
-     border: 
- }
 
 
-#divAvatar,.col-sm,#divGroupIconsHeader,.col-sm-2,.col-sm-8,.col-10,#divCenterBody{
-    border:
+
+#divAvatar,.col,.col-sm,#divGroupIconsHeader,.col-sm-2,.col-sm-8,.col-10,#divCenterBody,#divIconEspecializando,#divTituloHardSkill,.row{
+    
 
 }
 
-.col-sm-8{
-    border-left: rgb(211, 211, 211) solid 1px ;
-    border-right: rgb(211, 211, 211) solid 1px ;
-}
+
 
 
  
@@ -193,16 +189,13 @@ display: flex;
 
 
 
-.col-xs-8{
-    display:none;
-    background-color: blue;
-}
 
 
 
 /* DIV PAI */
 #divCenterBody{
-
+    margin-right: 0px;
+    padding-right: 0px;
     height: 640px;
     overflow:auto; 
     
@@ -467,6 +460,7 @@ background-color:black;
 
 
 
+
 #divRightBody{
    
     padding: 0px 0px 0px 0px;
@@ -512,14 +506,16 @@ background-color:black;
 /*SUBTITULOS E ICONS*/
 #subTituloHardSkill{
     background-color: rgb(151, 161, 237); ;
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 15px;
     color: rgb(255, 255, 255);
 }
 
 .iconHardSkill{
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
+    
+  
     
 }
 
@@ -548,7 +544,7 @@ background-color:black;
 
 }
 
-
+/*MOBILE MODELOS MOTO G5S PLUS*/
 @media screen and (max-width: 576px ){
     /***********************************/
     /****************BODY****************/
