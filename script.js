@@ -1,3 +1,41 @@
+
+
+
+
+
+//****************************************** 
+// TROCA DE PÁGINA NAV PAGE
+//******************************************
+function navPage(tela){
+
+    if (tela==1){
+        var tag_css=document.querySelector(".page3");
+        tag_css.style.display="none"
+        var tag_css=document.querySelector(".page1");
+        tag_css.style.display="block";
+
+    }
+
+
+    if (tela==3){
+        var tag_css=document.querySelector(".page1");
+        tag_css.style.display="none"
+        var tag_css=document.querySelector(".page3");
+        tag_css.style.display="block";
+        
+    }
+
+}
+
+
+
+
+//****************************************** 
+// CARDS PAGE 3
+//******************************************
+
+
+
 //****************************************** 
 // DEFINE A LINGUA DA PÁGINA
 //******************************************
@@ -23,6 +61,7 @@ function lingua(op) {
     document.querySelector("#NameDescricaoAgradecimentos").innerHTML = " I want to thank everyone who always believed in me, looking for me to help them in the area or maybe just praising what I do. Github for providing the opportunity to not only just exist here in this world, but to be able to build something that reflects my identity. This doesn’t seem like a big deal, but there’s a huge weight and meaning to me."
     }
 }
+
 
 
 
@@ -86,11 +125,10 @@ function setOldImage(valorIcon) {
 
 
 
+
 //****************************************** 
 // EFEITO DIGITAR HEADER  "QUEM SOU SEU"
 //******************************************
-
-
 const element = document.querySelector('#descricaoQuemSoueu');
 digitaTexto(element);
 function digitaTexto(element) {
