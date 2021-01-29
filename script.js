@@ -6,23 +6,23 @@
 //****************************************** 
 // TROCA DE PÁGINA NAV PAGE
 //******************************************
-function navPage(tela){
+function navPage(tela) {
 
-    if (tela==1){
-        var tag_css=document.querySelector(".page3");
-        tag_css.style.display="none"
-        var tag_css=document.querySelector(".page1");
-        tag_css.style.display="block";
+    if (tela == 1) {
+        var tag_css = document.querySelector(".page3");
+        tag_css.style.display = "none"
+        var tag_css = document.querySelector(".page1");
+        tag_css.style.display = "block";
 
     }
 
 
-    if (tela==3){
-        var tag_css=document.querySelector(".page1");
-        tag_css.style.display="none"
-        var tag_css=document.querySelector(".page3");
-        tag_css.style.display="block";
-        
+    if (tela == 3) {
+        var tag_css = document.querySelector(".page1");
+        tag_css.style.display = "none"
+        var tag_css = document.querySelector(".page3");
+        tag_css.style.display = "block";
+
     }
 
 }
@@ -43,22 +43,32 @@ function navPage(tela){
 function lingua(op) {
 
 
-    if (op == 0){
+    if (op == 0) {
         /*CENTER BODY PORTUGUES*/
         document.querySelector("#NameAbaProjeto").innerHTML = "Projeto"
-    document.querySelector("#NameTituloObjetivo").innerHTML = "Objetivo"
-    document.querySelector("#NameDescricaoObjetivo").innerHTML = "Chegou um ponto da minha graduação que vi a necessidade de unificar tudo que fiz, tudo que desenvolvi em um só lugar. Um lugar onde eu possa organizar tudo ao meu respeito, seja as redes acadêmicas e profissionais(GitHub, Linkedin, Lattes), redes socias (Facebook, Instagram, Twitter), habilidades, projetos, ideias, diplomas. Currículo++ está me proporcionando tudo isso, de uma forma limpa, direta e organizada."
-    document.querySelector("#NameTituloAgradecimentos").innerHTML = "Agradecimentos"
-    document.querySelector("#NameDescricaoAgradecimentos").innerHTML = "Quero agradecer a todos que sempre acreditaram em mim, me procurando para ajudá-los na área ou talvez apenas elogiando o que faço. Github por estar proporcionando a oportunidade de não só apenas existir aqui neste mundo, mas o de poder construir algo que reflita minha identidade. Isso aqui não parece ser algo grandioso, mas há um peso e um significado enorme para mim."
+        document.querySelector("#NameTituloObjetivo").innerHTML = "Objetivo"
+        document.querySelector("#NameDescricaoObjetivo").innerHTML = "Chegou um ponto da minha graduação que vi a necessidade de unificar tudo que fiz, tudo que desenvolvi em um só lugar. Um lugar onde eu possa organizar tudo ao meu respeito, seja as redes acadêmicas e profissionais(GitHub, Linkedin, Lattes), redes socias (Facebook, Instagram, Twitter), habilidades, projetos, ideias, diplomas. Currículo++ está me proporcionando tudo isso, de uma forma limpa, direta e organizada."
+        document.querySelector("#NameTituloAgradecimentos").innerHTML = "Agradecimentos"
+        document.querySelector("#NameDescricaoAgradecimentos").innerHTML = "Quero agradecer a todos que sempre acreditaram em mim, me procurando para ajudá-los na área ou talvez apenas elogiando o que faço. Github por estar proporcionando a oportunidade de não só apenas existir aqui neste mundo, mas o de poder construir algo que reflita minha identidade. Isso aqui não parece ser algo grandioso, mas há um peso e um significado enorme para mim."
     }
 
-    if (op == 1){
+    if (op == 1) {
         /*CENTER BODY INGLES*/
         document.querySelector("#NameAbaProjeto").innerHTML = "Project"
-    document.querySelector("#NameTituloObjetivo").innerHTML = "Objective"
-    document.querySelector("#NameDescricaoObjetivo").innerHTML = "There came a point in my graduation that I saw the need to unify everything I did, everything I developed in one place. A place where I can organize everything about myself, be it academic networks and professionals (GitHub, Linkedin, Lattes), social networks (Facebook, Instagram, Twitter), skills, projects, ideas, diplomas. Curriculum ++ is providing me with all this, in a clean, direct and organized."
-    document.querySelector("#NameTituloAgradecimentos").innerHTML = "Acknowledgment"
-    document.querySelector("#NameDescricaoAgradecimentos").innerHTML = " I want to thank everyone who always believed in me, looking for me to help them in the area or maybe just praising what I do. Github for providing the opportunity to not only just exist here in this world, but to be able to build something that reflects my identity. This doesn’t seem like a big deal, but there’s a huge weight and meaning to me."
+        document.querySelector("#NameTituloObjetivo").innerHTML = "Objective"
+        document.querySelector("#NameDescricaoObjetivo").innerHTML = "There came a point in my graduation that I saw the need to unify everything I did, everything I developed in one place. A place where I can organize everything about myself, be it academic networks and professionals (GitHub, Linkedin, Lattes), social networks (Facebook, Instagram, Twitter), skills, projects, ideas, diplomas. Curriculum ++ is providing me with all this, in a clean, direct and organized."
+        document.querySelector("#NameTituloAgradecimentos").innerHTML = "Acknowledgment"
+        document.querySelector("#NameDescricaoAgradecimentos").innerHTML = " I want to thank everyone who always believed in me, looking for me to help them in the area or maybe just praising what I do. Github for providing the opportunity to not only just exist here in this world, but to be able to build something that reflects my identity. This doesn’t seem like a big deal, but there’s a huge weight and meaning to me."
+        document.querySelector("#NameAbaQuemSouEu").innerHTML = "Who am I?"
+        document.querySelector("#NameAbaExperienciaAcademica").innerHTML = "Academic Experience"
+
+       
+       
+        
+        document.querySelector("#descricaoQuemSoueu").innerHTML = "console.log(HELLO, WORLD!)"
+        document.querySelector("#descricaoQuemSoueu2").innerHTML = "Nostalgic for the 90s, enthusiastic about extraterrestrial life, time travel, black holes, artificial intelligence and machine domination."
+
+        
     }
 }
 
